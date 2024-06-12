@@ -6289,6 +6289,10 @@ blockquote.pullquote.right {
     .st
 }
 
+.h2 {
+  color: red;
+}
+
 .search-dialog {
   position: fixed;
   top: 10%;
