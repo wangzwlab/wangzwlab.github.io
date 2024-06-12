@@ -1,12 +1,12 @@
 .sty1 {
-  display: flex;
+  display: center;
 }
 
 .sty1 img{
-  width: 30%;
+  width: 300px;
 }
 .info {
-  width: 70%;
+  width: auto;
 }
 
 .sty2 {
