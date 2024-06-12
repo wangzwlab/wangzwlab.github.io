@@ -41,6 +41,7 @@
 
 @media screen and (max-width: 768px) {
     .sty1 {
+      display: flex;
       flex-direction: column;
       align-items: center;
     }
