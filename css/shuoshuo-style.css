@@ -67,6 +67,7 @@
       margin-bottom: 10px;
     }
     .sty3 {
-      height: 3500px;
+      height: auto;
+      font-size: 40px 0;
     }
 }
