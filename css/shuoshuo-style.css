@@ -1,5 +1,6 @@
 .sty1 {
-  display: center;
+  display: flex;
+  flex-direction: center;
 }
 
 .sty1 img{
@@ -66,6 +67,6 @@
       margin-bottom: 10px;
     }
     .sty3 {
-      height: 1800px;
+      height: 2500px;
     }
 }
