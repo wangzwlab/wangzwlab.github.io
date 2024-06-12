@@ -41,7 +41,7 @@
 
 @media screen and (max-width: 768px) {
     .sty1 {
-      flex-direction: center;
+      flex-direction: column;
     }
     .sty1 img {
       width:150px;
@@ -67,6 +67,6 @@
       margin-bottom: 10px;
     }
     .sty3 {
-      height: 2500px;
+      height: 3500px;
     }
 }
