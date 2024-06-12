@@ -6211,6 +6211,77 @@ blockquote.pullquote.right {
 #article-container .timeline + .timeline {
   margin-top: -20px;
 }
+.sty1 {
+  display: flex;
+}
+
+.sty1 img{
+  width: 100%;
+}
+.info {
+  width: auto;
+}
+
+.sty2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 80px 40px;
+}
+.sty2 div{
+  width: 400px;
+  text-align: center
+}
+.sty2 img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.sty3 {
+  background-color: #91AA9D;
+  color:white;
+  height: 1000px;
+}
+
+.h3 {
+  color: #184C78
+}
+.h2 {
+  color: #184C78
+}
+
+@media screen and (max-width: 768px) {
+    .sty1 {
+      flex-direction: center;
+    }
+    .sty1 img {
+      width:150px;
+      height: 150px;
+    }
+    .info {
+      width: 100%;
+      padding: 20px 0;
+    }
+    .info h2 {
+      font-size: 20px;
+    }
+    .sty2 {
+      flex-direction: column;
+      padding: 20px 0;
+    }
+    .sty2 img {
+      width:150px;
+      height: 150px;
+      align-items: center;
+    }
+    .sty2 div{
+      margin-bottom: 20px;
+    }
+    .sty3 {
+      height: 1250px;
+    }
+}
+
 .search-dialog {
   position: fixed;
   top: 10%;
