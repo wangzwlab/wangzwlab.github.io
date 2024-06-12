@@ -3,7 +3,7 @@
 }
 
 .sty1 img{
-  width: 400px;
+  width: 600px;
 }
 .info {
   width: auto;
@@ -28,6 +28,8 @@
   background-color: #91AA9D;
   color:white;
   height: 1000px;
+  display: flex;
+  align-items: flex-start;
 }
 
 .h3 {
@@ -40,10 +42,10 @@
 @media screen and (max-width: 768px) {
     .sty1 {
       flex-direction: column;
+      align-items: center;
     }
     .sty1 img {
-      width:150px;
-      height: 150px;
+      width:100%;
     }
     .info {
       width: 100%;
@@ -61,12 +63,8 @@
       height: 150px;
       align-items: center;
     }
-    .sty2 div{
-      margin-bottom: 10px;
-    }
     .sty3 {
-      height: auto;
-      font-size: 40px 0
-      blockquote_background_color: #91AA9D;
+      height: 300vh;
+      font-size: 40px 0;
     }
 }
