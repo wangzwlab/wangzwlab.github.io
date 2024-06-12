@@ -8,13 +8,14 @@
 }
 .info {
   width: auto;
+  height: 300px;
 }
 
 .sty2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 80px 80px 40px;
+  padding: 80px 20px 40px;
 }
 .sty2 div{
   width: 400px;
