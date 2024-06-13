@@ -1,7 +1,26 @@
-.t01 {
-  background-color: pink;
-  height: 180px;
-}
-.h2 {
-  color: red;
-}
+        .card {
+            transition: transform .2s, box-shadow .2s;
+            width: 800px;
+            height: 80px;
+            padding-left: 15px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, .1), -2px -2px 4px rgba(0, 0, 0, .1);
+            background-color: #769fcd;
+            color: white;
+            letter-spacing: normal;
+            line-height: 25px;
+            font-family: Times New Roman;
+            font-size: 16px;
+        }
+        .card-box .card:hover {
+            transition: transform .2s, box-shadow .2s;
+            transform: translateY(-4px);
+            box-shadow: 4px 4px 8px rgba(0, 0, 0, .1), -4px -4px 8px rgba(0, 0, 0, .1);
+        }
+
+        @media screen and (max-width: 768px) {
+          .card{
+            width: 500px;
+          }
+        }
