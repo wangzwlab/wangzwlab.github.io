@@ -19,7 +19,9 @@
 }
 .sty2 div{
   width: 400px;
-  text-align: center
+  text-align: center;
+  margin-right: 2px;
+  margin-left: 2px;
 }
 .sty2 img{
   width: 100%;
@@ -35,11 +37,11 @@
 }
 
 .h3 {
-  color: #184C78
+  color: #184C78;
 }
 
 .h2 {
-  color: #184C78
+  color: #184C78;
 }
 
 @media screen and (max-width: 768px) {
