@@ -75,8 +75,13 @@ display: grid;
 }
 
 @media screen and (max-width: 768px) {
+  .menu {
+  width: 25px;
+
+  }
+
   .menu .item .nav {
-    width: 300px;
+    width: 100px;
   }
     .st
 }
