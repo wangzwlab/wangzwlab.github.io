@@ -6307,7 +6307,7 @@ text-decoration: none;
 .accordion article {
 	cursor: pointer;
 }
-label {
+.accordion label {
 	display: block;
 	padding: 0 20px;
 	height: 40px;
@@ -6318,7 +6318,7 @@ label {
 	color: #fff;
   text-align: center;
 }
-p {
+.accordion p {
 	overflow: hidden;
 	padding: 0 20px;
 	margin: 0;
@@ -6347,7 +6347,7 @@ input:nth-child(7):checked ~ article:nth-of-type(7) p {
   .accordion article {
   	cursor: pointer;
   }
-  label {
+  .accordion label {
   	display: block;
   	padding: 0 20px;
   	height: 40px;
@@ -6358,7 +6358,7 @@ input:nth-child(7):checked ~ article:nth-of-type(7) p {
   	color: #fff;
     text-align: center;
   }
-  p {
+  .accordion p {
   	overflow: hidden;
   	padding: 0 20px;
   	margin: 0;
