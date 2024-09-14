@@ -6366,11 +6366,16 @@ color: #ff6700;
 display: grid;
 }
 
-}
 
 @media screen and (max-width: 768px) {
+  .menu {
+  width: 25px;
+  height: auto;
+  }
+
   .menu .item .nav {
-    width: 300px;
+    width: 100px;
+    height: auto;
   }
     .st
 }
