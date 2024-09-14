@@ -6301,6 +6301,40 @@ a {
 text-decoration: none;
 }
 
+.accordion {
+	width: 300px;
+}
+.accordion article {
+	cursor: pointer;
+}
+label {
+	display: block;
+	padding: 0 20px;
+	height: 40px;
+	background-color: #f66;
+	cursor: pointer;
+	line-height: 40px;
+	font-size: 16px;
+	color: #fff;
+}
+p {
+	overflow: hidden;
+	padding: 0 20px;
+	margin: 0;
+	border: 1px solid #f66;
+	border-top: none;
+	border-bottom-width: 0;
+	max-height: 0;
+	line-height: 30px;
+	transition: all .5s ease;
+}
+input:nth-child(1):checked ~ article:nth-of-type(1) p,
+input:nth-child(2):checked ~ article:nth-of-type(2) p,
+input:nth-child(3):checked ~ article:nth-of-type(3) p {
+	border-bottom-width: 1px;
+	max-height: 130px;
+}
+
 .menu {
 width: 100px;
 height: 600px;
@@ -6368,6 +6402,40 @@ display: grid;
 
 
 @media screen and (max-width: 768px) {
+  .accordion {
+  	width: 300px;
+  }
+  .accordion article {
+  	cursor: pointer;
+  }
+  label {
+  	display: block;
+  	padding: 0 20px;
+  	height: 40px;
+  	background-color: #f66;
+  	cursor: pointer;
+  	line-height: 40px;
+  	font-size: 16px;
+  	color: #fff;
+  }
+  p {
+  	overflow: hidden;
+  	padding: 0 20px;
+  	margin: 0;
+  	border: 1px solid #f66;
+  	border-top: none;
+  	border-bottom-width: 0;
+  	max-height: 0;
+  	line-height: 30px;
+  	transition: all .5s ease;
+  }
+  input:nth-child(1):checked ~ article:nth-of-type(1) p,
+  input:nth-child(2):checked ~ article:nth-of-type(2) p,
+  input:nth-child(3):checked ~ article:nth-of-type(3) p {
+  	border-bottom-width: 1px;
+  	max-height: 130px;
+  }
+  
   .menu {
   width: 25px;
   height: auto;
