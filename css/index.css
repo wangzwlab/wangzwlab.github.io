@@ -6331,9 +6331,13 @@ p {
 }
 input:nth-child(1):checked ~ article:nth-of-type(1) p,
 input:nth-child(2):checked ~ article:nth-of-type(2) p,
-input:nth-child(3):checked ~ article:nth-of-type(3) p {
-	border-bottom-width: 1px;
-	max-height: 1300px;
+input:nth-child(3):checked ~ article:nth-of-type(3) p,
+input:nth-child(4):checked ~ article:nth-of-type(4) p,
+input:nth-child(5):checked ~ article:nth-of-type(5) p,
+input:nth-child(6):checked ~ article:nth-of-type(6) p,
+input:nth-child(7):checked ~ article:nth-of-type(7) p {
+  border-bottom-width: 1px;
+  max-height: 1300px;
 }
 
 @media screen and (max-width: 768px) {
@@ -6352,6 +6356,7 @@ input:nth-child(3):checked ~ article:nth-of-type(3) p {
   	line-height: 40px;
   	font-size: 16px;
   	color: #fff;
+    text-align: center;
   }
   p {
   	overflow: hidden;
@@ -6366,7 +6371,11 @@ input:nth-child(3):checked ~ article:nth-of-type(3) p {
   }
   input:nth-child(1):checked ~ article:nth-of-type(1) p,
   input:nth-child(2):checked ~ article:nth-of-type(2) p,
-  input:nth-child(3):checked ~ article:nth-of-type(3) p {
+  input:nth-child(3):checked ~ article:nth-of-type(3) p,
+  input:nth-child(4):checked ~ article:nth-of-type(4) p,
+  input:nth-child(5):checked ~ article:nth-of-type(5) p,
+  input:nth-child(6):checked ~ article:nth-of-type(6) p,
+  input:nth-child(7):checked ~ article:nth-of-type(7) p {
   	border-bottom-width: 1px;
   	max-height: 1300px;
   }
