@@ -6302,7 +6302,7 @@ text-decoration: none;
 }
 
 .accordion {
-	width: 300px;
+	width: 875px;
 }
 .accordion article {
 	cursor: pointer;
@@ -6316,6 +6316,7 @@ label {
 	line-height: 40px;
 	font-size: 16px;
 	color: #fff;
+  text-align: center;
 }
 p {
 	overflow: hidden;
@@ -6332,74 +6333,8 @@ input:nth-child(1):checked ~ article:nth-of-type(1) p,
 input:nth-child(2):checked ~ article:nth-of-type(2) p,
 input:nth-child(3):checked ~ article:nth-of-type(3) p {
 	border-bottom-width: 1px;
-	max-height: 130px;
+	max-height: 1300px;
 }
-
-.menu {
-width: 100px;
-height: 600px;
-padding: 20px 0;
-background-color: rgba(0, 0, 0, 0.5);
-margin: 50px 0 0 50px;
-position: relative;
-}
-
-.menu .item {
-height: 42px;
-/* border: 1px solid red; */
-color: #fff;
-font-size: 14px;
-line-height: 42px;
-padding-left: 30px;
-cursor: pointer;
-}
-
-.menu .item:hover {
-background-color: #ff6700;
-}
-
-/* 右侧二级菜单 */
-.menu .item .nav {
-  width: 650px;
-  height: 600px;
-  background-color: #fff;
-  border: 1px solid #666;
-  position: absolute;
-  top: 0;
-  left: 100%;
-  box-sizing: border-box;
-  /* 六行单元格平分整个区域 */
-  display: grid;
-  grid-template-rows: repeat(6, 1fr);
-  grid-template-columns: 1fr;
-  align-items: start;
-  justify-content: stretch;
-  /* 排列方式设置为先行后列*/
-  grid-auto-flow: row;
-  /* 设置隐式网格宽度 */
-  grid-auto-columns: 250px;
-  padding: 20px;
-  grid-gap: 10px;
-  /* 初始默认隐藏 */
-  display: none;
-}
-
-.item .nav a {
-/* border: 1px solid red; */
-color: #000;
-display: flex;
-/* 垂直方向居中对齐,防止随父元素高度而被拉伸 */
-align-items: center;
-}
-
-.item .nav a:hover {
-color: #ff6700;
-}
-
-.item:hover .nav {
-display: grid;
-}
-
 
 @media screen and (max-width: 768px) {
   .accordion {
@@ -6433,19 +6368,9 @@ display: grid;
   input:nth-child(2):checked ~ article:nth-of-type(2) p,
   input:nth-child(3):checked ~ article:nth-of-type(3) p {
   	border-bottom-width: 1px;
-  	max-height: 130px;
-  }
-  
-  .menu {
-  width: 25px;
-  height: auto;
+  	max-height: 1300px;
   }
 
-  .menu .item .nav {
-    width: 100px;
-    height: auto;
-  }
-    .st
 }
 
 .search-dialog {
