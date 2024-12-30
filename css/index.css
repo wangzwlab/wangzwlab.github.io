@@ -6226,12 +6226,13 @@ blockquote.pullquote.right {
 
 .sty2 {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  flex-wrap: wrap;
   align-items: center;
   padding: 80px 20px 40px;
 }
 .sty2 div{
-  width: 400px;
+  width: 200px;
   text-align: center;
   margin-right: 2px;
   margin-left: 2px;
@@ -6262,25 +6263,10 @@ font-size: 25px;/* 文字大小 */
 background-color: #184C78;/* 背景颜色 */
 display: inline-block;	/* 定义为行内块元素 */
 color: white;
-padding: 2px 2px;
+padding: 1px 1px;
 border-bottom-width: 2px;
 border-bottom-color: #184C78;
-}
-
-
-.order {
-    height: 60px;
-    line-height: 60px;
-    text-align: center;
-}
-.order .line {
-    display: inline-block;
-    width: 35%;
-    border-top: 3px solid #82B3D5;
-}
-.order .txt {
-    color: #555;
-    vertical-align: middle;
+margin:0px;border:0;
 }
 
 @media screen and (max-width: 768px) {
