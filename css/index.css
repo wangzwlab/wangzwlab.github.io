@@ -6257,6 +6257,32 @@ blockquote.pullquote.right {
   color: #184C78;
 }
 
+.mian_memberscat{
+font-size: 25px;/* 文字大小 */
+background-color: #184C78;/* 背景颜色 */
+display: inline-block;	/* 定义为行内块元素 */
+color: white;
+padding: 2px 2px;
+border-bottom-width: 2px;
+border-bottom-color: #184C78;
+}
+
+
+.order {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+.order .line {
+    display: inline-block;
+    width: 35%;
+    border-top: 3px solid #82B3D5;
+}
+.order .txt {
+    color: #555;
+    vertical-align: middle;
+}
+
 @media screen and (max-width: 768px) {
     .sty1 {
       display: flex;
